@@ -22,18 +22,19 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: #f8efef; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
 header {
+
    position: relative;
    height: 800px;
-   min-height: 500px;
+   min-height: 900px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #fcfafa url() no-repeat top left;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -51,12 +52,17 @@ header .banner {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
-   width: 85%;
-   padding-bottom: 30px;
+   /* width: 85%;
+   padding-bottom: 30px; */
+   width: 100%;
+   
+
+
+
    text-align: center;
 }
 
-header .banner-text { width: 100%; }
+/* header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
@@ -80,7 +86,7 @@ header .banner-text hr {
    margin: 18px auto 24px auto;
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .1);
-}
+} */
 
 /* header social links */
 header .social {
@@ -119,6 +125,8 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #11ABB0; }
 
+
+
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
@@ -133,12 +141,14 @@ header .scrolldown a:hover { color: #11ABB0; }
    font: 12px 'opensans-bold', sans-serif;
    width: 100%;
    text-transform: uppercase;
-   letter-spacing: 2.5px;
+   letter-spacing: 5px;
    margin: 0 auto;
    z-index: 100;
    position: fixed;
    left: 0;
    top: 0;
+   bottom: 0;
+   height: 0%;
 }
 .opaque { background-color: #333; }
 
@@ -150,13 +160,15 @@ ul#nav {
    width: auto;
 
    /* center align the menu */
-   text-align: center;
+   /* text-align: center; */
+   text-align: right;
 }
 ul#nav li {
    position: relative;
    list-style: none;
    height: 48px;
    display: inline-block;
+ 
 }
 
 /* Links */
@@ -169,7 +181,7 @@ ul#nav li a {
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
-   color: #fff;
+   color: rgb(11, 9, 9);
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -187,7 +199,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #f8f5f5;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -291,7 +303,7 @@ ul#nav li.current a { color: #F06000; }
 	padding: 0;
 	text-align: left;
 }
-.bars .skills {
+.bars .ourvalue {
   	margin-top: 36px;
    list-style: none;
 }
@@ -324,6 +336,8 @@ ul#nav li.current a { color: #F06000; }
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
+
+
 /*
 .git {
   	-moz-animation: git 2s ease;
@@ -417,7 +431,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #f5f7f7;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -427,7 +441,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #f9f7f7;
 }
 
 #portfolio-wrapper {
@@ -651,7 +665,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #f8f5f5 url() no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;

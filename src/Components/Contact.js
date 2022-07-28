@@ -20,26 +20,30 @@ const Contact = ({ data }) => {
 
          <div className="row section-head">
 
-            <div className="two columns header-col">
+  {/* <span id="space" className="columns"></span>
+    <span id="space" className="columns"></span>
+      <span id="space" className="columns"></span> */}
 
-               <h1><span>Get In Touch.</span></h1>
-
+            <div className="columns">
+               <h1> Contact Us </h1>
             </div>
+            {/* lettre icon  */}
+
 
             <div className="ten columns">
-
                   <p className="lead">{data?.message}</p>
-
             </div>
-
          </div>
+
+
 
          <div className="row">
             <div className="eight columns">
 
-               <form id="contactForm" name="contactForm">
-					<fieldset>
 
+               <form id="contactForm" name="contactForm">
+
+					<fieldset>
                   <div>
 						   <label htmlFor="contactName">Name <span className="required">*</span></label>
 						   <input value={name} type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={e => setName(e.target.value)}/>
@@ -77,7 +81,7 @@ const Contact = ({ data }) => {
 
 
             <aside className="four columns footer-widgets">
-               <div className="widget widget_contact">
+               {/* <div className="widget widget_contact">
 
 					   <h4>Address and Phone</h4>
 					   <p className="address">
@@ -86,7 +90,7 @@ const Contact = ({ data }) => {
 						   {data?.address.city}, {data?.address.state} {data?.address.zip}<br />
 						   <span>{data?.phone}</span>
 					   </p>
-				   </div>
+				   </div> */}
 
                <div className="widget widget_tweets">
 

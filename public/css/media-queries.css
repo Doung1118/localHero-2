@@ -171,7 +171,7 @@
       margin: 0 auto; 
       padding: 0 4%;           
       text-align: left;
-      border-bottom: 1px solid #2D2E34;
+      border-bottom: 1px solid #eef0f6;
       border-bottom-style: dotted; 
    }
   
@@ -252,9 +252,9 @@
    #call-to-action p { font-size: 15px; }
 
 
-   /* Portfolio Section
+   /* aboutus Section
    /* ----------------------------------------------------------------- */
-   #portfolio-wrapper .columns { margin-bottom: 40px; }
+   #aboutus-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
 
 

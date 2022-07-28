@@ -12,9 +12,17 @@ class Footer extends Component {
     return (
       <footer>
 
+        <div className="container">
+  <span id="space" className="columns"></span>
+                       <span id="space" className="columns"></span>
+<img className="smoothscroll" src="../images/FOORTER.png" alt=""></img>
+
+</div>
+      
+
      <div className="row">
         <div className="twelve columns">
-           <ul className="social-links">
+           {/* <ul className="social-links">
               {networks}
            </ul>
 
@@ -25,7 +33,7 @@ class Footer extends Component {
            <ul className="copyright">
               <li>&copy; All credit goes to Tim Baker - Copyright 2017 Tim Baker</li>
               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
-           </ul>
+           </ul> */}
 
         </div>
         <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-class About extends Component {
+class Ourvison extends Component {
   render() {
 
    
     return (
-      <section id="about">   
+      <section id="ourvison">   
      {/* <p className="scrolldown">
          <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
       </p> */}
@@ -13,7 +13,9 @@ class About extends Component {
 <div className="container">
   <span id="space" className="columns"></span>
                        <span id="space" className="columns"></span>
-<img className="smoothscroll" src="../images/portfolio/LocalHero/OurValue.png" alt=""></img>
+
+            <img  src="../images/portfolio/LocalHero/OurVison.png"></img>      
+
 
 </div>
       
@@ -30,4 +32,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default Ourvison;
