@@ -149,9 +149,9 @@ header .scrolldown a:hover { color: #11ABB0; }
    top: 0;
    bottom: 0;
    /* barry cool bar */
-   height: 12%;
+   height: 10%;
 }
-.opaque { background-color: rgb(136, 133, 133); }
+.opaque { background-color: rgb(223, 218, 218); }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }

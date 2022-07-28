@@ -14,7 +14,7 @@ class Ourvison extends Component {
   <span id="space" className="columns"></span>
                        <span id="space" className="columns"></span>
 
-            <img  src="../images/portfolio/LocalHero/OurVison.png"></img>      
+            <img  src="../images/portfolio/LocalHero/Our_vison.png"></img>      
 
 
 </div>

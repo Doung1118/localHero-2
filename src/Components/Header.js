@@ -34,7 +34,7 @@ class Header extends Component {
  <span id="space" className="ten columns"> </span>
 
              <span id="space" className=" ten columns"> 
-                        <img src="../images/portfolio/Intropage -local hero/_層_1-2.png">
+                        <img src="../images/portfolio/LOGO/LOGO_SM.png">
                </img>
                   </span>
                        <span id="space" className="ten columns"> </span>
