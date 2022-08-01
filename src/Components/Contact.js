@@ -20,17 +20,16 @@ const Contact = ({ data }) => {
 
          <div className="row section-head">
 
-  {/* <span id="space" className="columns"></span>
-    <span id="space" className="columns"></span>
-      <span id="space" className="columns"></span> */}
+<div className="container">
 
-            <div className="columns">
+           <div>
                <h1> Contact Us </h1>
             </div>
+            
             {/* lettre icon  */}
 
 
-            <div className="ten columns">
+            <div className="columns">
                   <p className="lead">{data?.message}</p>
             </div>
          </div>
@@ -96,6 +95,9 @@ const Contact = ({ data }) => {
 
 		         </div>
             </aside>
+
+</div>
+            
       </div>
    </section>
     );
