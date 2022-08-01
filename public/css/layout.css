@@ -891,7 +891,7 @@ call-to-action .button {
    margin: 12px 0;
    color: #141616;
 	display: inline-block;
-	float: ;
+	float: left;
    width: 26%;
 }
 #contact input,
@@ -942,11 +942,9 @@ call-to-action .button {
 	border: none;
    cursor: pointer;
    height: auto;
-   display: inlinfle-block;
+   display: inline-block;
 	border-radius: 3px;
- 
-   margin-left: 500px;
-   /* margin-left: 26%; */
+   margin-left: 40%;
 }
 #contact button.submit:hover {
 	color: #0D0D0D;
