@@ -39,9 +39,6 @@ class Header extends Component {
                   </span>
                        <span id="space" className="ten columns"> </span>
          
-
-   
-   
      
             <li className="current"><a className="smoothscroll" href="#home">our Vison</a></li>
             <li><a className="smoothscroll" href="#about">our Value</a></li>

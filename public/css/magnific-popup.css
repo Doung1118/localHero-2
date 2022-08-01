@@ -155,7 +155,7 @@ button::-moz-focus-inner {
   position: absolute;
   top: 0;
   right: 0;
-  color: #cccccc;
+  color: #ffffff;
   font-size: 12px;
   line-height: 18px; }
 
@@ -311,7 +311,7 @@ img.mfp-img {
     display: inline;
     margin-left: 5px; }
   .mfp-img-mobile .mfp-bottom-bar {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(130, 115, 115, 0.6);
     bottom: 0;
     margin: 0;
     top: auto;
